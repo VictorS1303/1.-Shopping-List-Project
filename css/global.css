@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald: 100, 200, 300, 400, 500, 600, 700, 800, 900');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+body
+{
+    display: grid;
+    place-content: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--body-background-color);
+}
+
+body>*
+{
+    font-family: inherit;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+button
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h4
+{
+    display: inline-block;
+}

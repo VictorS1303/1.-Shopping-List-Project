@@ -1,0 +1,76 @@
+:root
+{
+    /* Colors */
+    --body-background-color: ;
+    --primary-text-color: ;
+    --border-color: #333;
+    --add-btn-text-color: #fff;
+    --add-btn-background-color: #1e1e1e;
+
+    /* Radii */
+    --base-border-radius: 10px;
+
+    /* Shadows */
+    --text-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+/* Buttons */
+.btn
+{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: #444;
+}
+
+.btn-link
+{
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn-clear
+{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-clear:hover
+{
+    background-color: #f1f1f1;
+}
+
+/* Display Classes */
+.none
+{
+    display: none;
+}
+
+.block
+{
+    display: block;
+}
+
+.flex
+{
+    display: flex;
+}

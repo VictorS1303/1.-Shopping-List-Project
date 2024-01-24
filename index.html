@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/responsiveness.css">
+  <script src="https://kit.fontawesome.com/e05f21b32e.js" crossorigin="anonymous"></script>
+  <script src="js/main.js" defer></script>
+  <title>Project #1 | Shopping List</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="images/note.png" alt="" />
+      <h1>Shopping List</h1>
+    </header>
+    <form id="item_form">
+      <div class="form-control">
+        <input type="text" class="form-input" id="item_input" name="item" placeholder="Enter Item" />
+      </div>
+      <div class="form-control">
+        <button type="submit" class="btn" id="submit_btn">
+          <i class="fa-solid fa-plus"></i> Add Item
+        </button>
+      </div>
+    </form>
+
+    <div class="filter none" id="filter">
+      <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items" />
+    </div>
+
+    <ul id="item_list" class="items">
+      <!-- <li class="item">
+        Apples
+        <button class="remove-item btn-link text-red">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </li>
+      <li class="item">
+        Orange Juice
+        <button class="remove-item btn-link text-red">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </li>
+      <li class="item">
+        Oreos
+        <button class="remove-item btn-link text-red">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </li>
+      <li class="item">
+        Milk
+        <button class="remove-item btn-link text-red">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </li> -->
+    </ul>
+
+    <button id="clear_btn" class="btn-clear none">Clear All</button>
+  </div>
+</body>
+
+</html>
